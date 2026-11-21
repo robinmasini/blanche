@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/", "has": [{ "type": "host", "value": "blanchealigners.com" }], "destination": "https://www.blanchealigneurs.com/en.html", "permanent": true },
+    { "source": "/", "has": [{ "type": "host", "value": "www.blanchealigners.com" }], "destination": "https://www.blanchealigneurs.com/en.html", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "blanchealigners.com" }], "destination": "https://www.blanchealigneurs.com/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.blanchealigners.com" }], "destination": "https://www.blanchealigneurs.com/:path*", "permanent": true }
+  ]
+}
